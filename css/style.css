@@ -1,0 +1,114 @@
+/* background content */
+
+body, html{
+    background: #788cbe; /* Old browsers */
+    background: -moz-linear-gradient(top,  #788cbe 0%, #1c1f26 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #788cbe 0%,#1c1f26 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #788cbe 0%,#1c1f26 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#788cbe', endColorstr='#1c1f26',GradientType=0 ); /* IE6-9 */
+}
+
+/* navigation */
+
+.navbar {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 45px 0px 20px;
+font-weight: bold;
+}
+
+.logo {
+margin-right: auto;
+padding: 20px;
+}
+
+.nav-item{
+    display: flex;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0px 3px 6px rgba(0,0,0,0.6);
+    margin-right: 20px;
+}
+
+.nav-item-home{
+    border-bottom: 4px solid #186AD5;
+    color: #1B2582;
+    padding: 6px 6px 2px 6px;
+    font-size: 25px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0px 3px 6px rgba(0,0,0,0.25);
+}
+
+
+/* hero banner */
+.heroBanner{
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.picture{
+    display: flex; 
+    flex-wrap: nowrap;
+
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin-left: 25px;
+}
+
+
+
+.aboutTxt{
+    position: relative;
+    color: white;
+    font-family: 'Lato', 'sans serif';
+    font-size: 35px;
+    padding: 20px;
+}
+.mediaLogos{
+    display: flex;
+    flex: right;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+.githubLogo{
+    padding-right: 30px;
+}
+
+/* Cards */
+
+
+.card{
+    margin-top: 30px;
+}
+
+/* Footer */
+
+.footer{
+    color: white;
+    display: flex;
+    background: rgb(121,122,123);
+    background: linear-gradient(0deg, rgba(121,122,123,1) 0%, rgba(72,73,74,1) 100%); 
+    width: 100%;
+    height: 150px;
+    font-family: 'Roboto', 'sans serif';
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    text-shadow: 0px 3px 6px rgba(0,0,0,0.6);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.6);
+}
+.contactMe{
+    padding-left: 60px;
+}
+.contactInfo{
+    padding-right: 60px;
+}
